@@ -1,0 +1,341 @@
+header {
+    width: 100%;
+    height: 60px;
+    border-bottom: 1px solid #ccc;
+}
+
+.header-container {
+    width: 1200px;
+    margin: 0 auto;
+    height: 100%;
+    /*background: #536dff;*/
+    /*text-decoration: none;*/
+    cursor: pointer;
+}
+
+.header-left {
+    position: relative;
+    float: left;
+}
+
+.header-left li {
+    float: left;
+}
+
+.logo {
+    width: 168px;
+    height: 60px;
+}
+
+.set-mainpage {
+    cursor: pointer;
+    font-size: 3px;
+    color: #fff;
+    width: 36px;
+    height: 36px;
+    background-color: #07ac72;
+    border-radius: 2px;
+    box-sizing: border-box;
+    padding: 5px;
+    top: 50%;
+    margin-top: 12px;
+    line-height: 13px;
+}
+
+.weather {
+    color: #999999;
+    box-sizing: border-box;
+    line-height: 60px;
+    /* padding: 5px; */
+    width: 220px;
+    height: 60px;
+    text-align: left;
+    margin-left: 10px;
+}
+
+.weather-city {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.weather-wind {
+    background-color: #f7f7f7;
+    padding: 2px;
+    border-radius: 2px;
+    margin-left: 5px;
+    vertical-align: middle;
+}
+
+.weather-icon {
+
+    display: inline-block;
+    width: 28px;
+    height: 28px;
+    background: url("../img/a0.png") no-repeat;
+    vertical-align: middle;
+}
+
+.weather-status {
+    padding: 2px;
+    margin-left: 5px;
+    vertical-align: middle;
+}
+
+.weather-arrow {
+    width: 12px;
+    height: 12px;
+    vertical-align: middle;
+    vertical-align: middle;
+
+    /* display: inline-block; */
+    /* background: url(../img/index_widthlg.png) -67px 0px; */
+    background: url(../img/index_widthlg.png) no-repeat -342px -251px;
+}
+
+.calendar-gongli, .calendar-week, .calendar-nongli {
+    line-height: 60px;
+    text-align: center;
+    color: #cccccc;
+}
+
+.header-right {
+    float: right;
+}
+
+.header-right li {
+
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    min-width: 38px;
+    float: right;
+}
+
+.header-right li a {
+    color: #cccccc;
+}
+
+.login-icon {
+    vertical-align: middle;
+    background: url(../img/index_widthlg.png) no-repeat -39px -130px;
+    display: inline-block;
+    width: 20px;
+    height: 19px;
+}
+
+.search-container {
+    width: 1200px;
+    height: 60px;
+    margin: 20px auto;
+    position: relative;
+    text-align: center;
+}
+
+.bd-logo {
+    vertical-align: middle;
+    display: inline-block;
+    width: 123px;
+    height: 46px;
+    background: url(../img/index_widthlg.png) no-repeat -8px -212px;
+}
+
+form {
+    position: relative;
+    display: inline-block;
+}
+
+.search-text {
+    width: 538px;
+    border: 1px solid #000;
+    height: 44px;
+}
+
+.search-button {
+    display: inline-block;
+    width: 120px;
+    height: 46px;
+}
+
+.search-btn-icon {
+    position: absolute;
+    display: inline-block;
+    width: 120px;
+    height: 46px;
+    background: #07AC74 url(../img/index_widthlg.png) no-repeat -211px -180px;
+    top: 0;
+    left: 538px;
+}
+
+.color-choose {
+    position: relative;
+    width: 72px;
+    height: 15px;
+    /*background-color: bisque;*/
+    margin-left: 120px;
+}
+
+.dis-inlineblock {
+    display: inline-block;
+
+}
+
+.color-red {
+    background-color: #ff596a;
+}
+
+.color-blue {
+    background-color: #536dff;
+}
+
+.color-yellow {
+    background-color: #ffd643;
+}
+
+.color-green {
+    background-color: #07ac72;
+}
+
+.color-red, .color-blue, .color-yellow, .color-green {
+    width: 15px;
+    height: 15px;
+}
+
+.menu-container {
+    width: 1200px;
+    height: 40px;
+    margin: 10px auto;
+}
+
+.menu-container li {
+    cursor: pointer;
+    line-height: 40px;
+    text-align: center;
+    font-size: 16px;
+    background-color: #07ac72;
+    width: 109px;
+    height: 40px;
+    float: left;
+}
+
+.menu-container li a {
+    color: #ffffff;
+
+}
+
+.main-container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.mc-left {
+    display: inline-block;
+    width: 280px;
+}
+
+.swiper-button-prev, .swiper-button-next {
+}
+
+.menu-1 {
+    box-sizing: border-box;
+    padding: 0px 0 0 20px;
+    border: 1px solid #cccccc;
+    width: 278px;
+    height: 150px;
+}
+
+.menu-1 li {
+    float: left;
+    width: 115px;
+
+    height: 20px;
+    margin: 5px;
+    line-height: 20px;
+}
+
+.menu-1-icon {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+    background: url(../img/index_menus_widthlg.png) no-repeat -18px -82px;
+}
+
+.menu-1 a {
+    font-size: 14px;
+    color: #000;
+}
+
+.menu-1 a:hover {
+    text-decoration: underline;
+    color: #f50;
+}
+
+.mc-right {
+    box-sizing: border-box;
+    position: absolute;
+    border: 1px solid #07ac72;
+    width: 909px;
+    display: inline-block;
+    height: 220px;
+    /*background: #ffd643;*/
+    margin-left: 10px;
+}
+
+.hot-website,.main-website {
+    padding-left: 28px;
+}
+
+.hot-website-icon {
+    vertical-align: middle;
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+
+}
+.bd-icon{
+    background: url("../img/7656.png");
+}
+.sina-icon{
+    background: url("../img/defaultIcon1229.png") no-repeat 0px -280px;
+}
+.sohu-icon{background: url("../img/defaultIcon1229.png") no-repeat 0px -320px;}
+.qq-icon{background: url("../img/defaultIcon1229.png") no-repeat 0px -40px;}
+.net163-icon{background: url("../img/defaultIcon1229.png") no-repeat 0px -160px;}
+.youku-icon{background: url("../img/defaultIcon1229.png") no-repeat 0px -400px;}
+.tmall-icon{background: url(../img/tianmao2015082101.gif) no-repeat -4px -6px;}
+.ifeng-icon{background: url("../img/defaultIcon1229.png") no-repeat 0px -240px;}
+.taobao-icon{background: url("../img/defaultIcon1229.png") no-repeat 0px -360px;}
+.freegame-icon{background: url("../img/defaultIcon1229.png") no-repeat 0px -360px;}
+.game4399-icon{background: url("../img/defaultIcon1229.png") no-repeat 0px 0px;}
+.tj-icon{background: url("../img/defaultIcon1229.png") no-repeat 0px -480px;}
+.hao123video-icon{background: url("../img/defaultIcon1229.png") no-repeat 0px -640px;}
+.car-icon{background: url("../img/defaultIcon1229.png") no-repeat 0px -520px;}
+.jd-icon{background: url("../img/jd.png") no-repeat}
+.suning-icon{background: url("../img/suning.png") no-repeat}
+.guomei-icon{background: url("../img/guomeo.png") no-repeat}
+.hot-website a,.main-website a {
+    line-height: 16px;
+    color: #000000;
+    font-size: 14px;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.hot-website li,.main-website li {
+    float: left;
+    width: 146px;
+    height: 30px;
+    line-height: 30px;
+}
+.wuba-icon{background: url("../img/58.png") no-repeat}
+.fang-icon{background: url("../img/fang.png") no-repeat}
+.xie-icon{background: url("../img/xiecheng20151019.png") no-repeat}
+.ganji-icon{background: url("../img/ganji.png") no-repeat}
+.yiche-icon{background: url("../img/yiche.png") no-repeat}
+.aicar-icon{background: url("../img/aikaqiche20150818.png") no-repeat}
+.vip-icon{background: url("../img/vip.png") no-repeat}
+.niu-icon{background: url("../img/tuniu.png") no-repeat}
+.sunin-icon{background: url("../img/suning_white.png") no-repeat}
+.no1-icon{background: url("../img/no1.png") no-repeat}
+.aliyou-icon{background: url("../img/aliyou.png") no-repeat}
+.lovetb-icon{background: url("../img/lovetb.png") no-repeat}
